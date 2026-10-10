@@ -1,0 +1,13 @@
+#include <physical_layouts.dtsi>
+
+/ {
+    physical_layout_whomst: physical_layout_whomst {
+        compatible = "zmk,physical-layout";
+        display-name = "whomst";
+        keys  //                     w   h    x    y     rot    rx    ry
+            = <&key_physical_attrs 100 100    0    0       0     0     0>
+            , <&key_physical_attrs 100 100  100    0       0   100     0>
+            , <&key_physical_attrs 100 100  200    0       0   200     0>
+            ;
+    };
+};

@@ -1,0 +1,4 @@
+name: zmk-keyboard-whomst
+build:
+  settings:
+    board_root: .
